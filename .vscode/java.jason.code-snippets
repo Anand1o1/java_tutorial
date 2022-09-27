@@ -1,0 +1,29 @@
+{"basic code for java": {
+	"prefix": "main2",
+	"body": [
+	  "import java.util.*;",
+	  "public class {",
+	  "public static void main(String args[]){",
+	  "System.out.println(\"\");",
+	  "}}",
+	  ""
+	],
+	"description": "basic code for java"},
+  
+  "print anthing": {
+	"prefix": "print",
+	"body": [
+	  "System.out.print();"
+	],
+	"description": "print anthing"
+  },
+  "input anything": {
+	"prefix": "input",
+	"body": [
+	  "Scanner sc= new Scanner(System.in);",
+	  "sc.close();"
+	],
+	"description": "input anything"
+  },
+  
+}
