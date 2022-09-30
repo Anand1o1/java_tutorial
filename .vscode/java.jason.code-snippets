@@ -3,8 +3,7 @@
 	"body": [
 	  "import java.util.*;",
 	  "public class {",
-	  "public static void main(String args[]){",
-	  "System.out.println(\"\");",
+	  "    public static void main(String args[]){",
 	  "}}",
 	  ""
 	],
@@ -25,5 +24,14 @@
 	],
 	"description": "input anything"
   },
+  "function": {
+	"prefix": "fun",
+	"body": [
+	  "public static void function(){",
+	  "",
+	  "}"
+	],
+	"description": "function"
+  }
   
 }
