@@ -75,6 +75,15 @@ public class all_bits_manp {
         return ans;
 
     }
+    //complement of a number in descimal
+
+    //bits manupulation 1's complement and what is that number in descimal 
+    //for example 5=101 we can also write it as 5= 0000101
+    //so                                        5'=1111010 so now it became a negative number as its most significant bit(MSB) is 1
+    //so to find 5' complement is descimal-->   
+    //take it 1's complement                       0000101
+    //now add binary one to it                          +1
+    //                                             0000110=6 but as 5' was a negative number so it will be -6 so 5's complement is -6 in descimal     
 
     public static void main(String args[]) {
         System.out.println(fastexpomod(3978432, 5, 1000000007));
